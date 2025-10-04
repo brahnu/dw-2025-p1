@@ -1,7 +1,4 @@
-import {
-  Type,
-  type FastifyPluginAsyncTypebox,
-} from "@fastify/type-provider-typebox";
+import {Type, type FastifyPluginAsyncTypebox,} from "@fastify/type-provider-typebox";
 import { Persona } from "../../model/persona.ts";
 import { createPerson, findAll } from "../../services/personas.ts";
 import { ErrorSchema } from "../../model/errors.ts";
